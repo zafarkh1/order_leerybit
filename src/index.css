@@ -1,0 +1,25 @@
+:root {
+  --iq-base-font-size: 62.5%;
+}
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth {
+  margin-top: var(--iq-grid-spacing);
+  padding: var(--iq-grid-spacing);
+  border-radius: var(--iq-input-border-radius);
+  box-shadow: var(--iq-elevation-2-shadows);
+  text-align: center;
+}
+
+.auth .iq-form {
+  min-width: 40rem;
+}
+
+.iq-input div {
+  display: none !important;
+}
