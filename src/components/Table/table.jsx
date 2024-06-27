@@ -8,7 +8,6 @@ function MyTable({addOpen, addClose}) {
   const [userData, setUserData] = useState([])
   const [userId, setUserId] = useState('')
   const { data } = readData()
-
   function prop(p, obj) {
     return p.split('.').reduce((o, i) => (o ? o[i] : undefined), obj);
   }

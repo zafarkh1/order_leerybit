@@ -25,7 +25,7 @@ function App() {
       >
         <BrowserRouter>
           <Routes>
-            <Route path="/table" element={
+            <Route path="/" element={
               <MyTable
                 addOpen={ isAddOpen }
                 addClose={ setIsAddOpen }
